@@ -3,7 +3,7 @@
 ## Sequential logic circuit block design
 
 
-![block circuit](sequentialBlockCircuit.png)
+![block circuit](./images/sequentialBlockCircuit.png)
 
 
 
@@ -25,7 +25,7 @@ This feedback mechanism is what gives sequential circuits their "memory" capabil
 #
 Here is a simple example problem here:
 The example input is 011010
-![clock example](clockExample.png)
+![clock example](./images/clockExample.png)
 
 Note that the 1/1 means a few things in this state diagram. the first number indicates which number will cause a transition and the second number is what the output state will change to. For example if state z starts at 0 and starts at state B. If x = 1 then B transitions to A as well as changing the state of Z to 1.
 
@@ -34,13 +34,13 @@ Also note that the state can only change depending on the falling edge of the cl
 
 ## Latches
 
-![flip flop](FlipFlop.png)
+![flip flop](./images/FlipFlop.png)
 This indicates a S-R latch as well as the timing diagram. What this does is it flips the output each and every time. In the table below all of the circled states are considered stable.
 A stable state can run the circuit again and again and the inputs as well as the outputs remain the exact same.
 
 if we change the value but no change in output the state is stable. if we change in input value and the output value changes the state is unstable.
 
-![truth table](TruthTable.png)
+![truth table](./images/TruthTable.png)
 
 A gated S-R latch is a S-R latch with an additional enable input. If enable is 0 then the states stay the same, if 1 then they are allowed to change.
 
@@ -49,12 +49,12 @@ Q^+ = SG + Q(R' + G')
 Where G is the enable input
 
 The way to include this "Gate" is to use 2 more NAND gates initially as well as the enable input.
-![Gate](Gate.png)
+![Gate](./images/Gate.png)
 
 
 There are such latches called a D latch which essentially makes sure that if S=1 then R=0 and if S=0 Then R=1. The will never be the same
 
-![d latch](dLatch.png)
+![d latch](./images/dLatch.png)
 
 Therefore, the condition S=R=1 will never happen.
 
@@ -70,7 +70,7 @@ This is also reffered to as the **"transparent latch"**.
 ## Falling edge triggered D flip flop
 
 Falling edge D-flip flops "remember" the value between clock transitions
- ![D latch flip flop](dLatchFlipFlop.png)
+ ![D latch flip flop](./images/dLatchFlipFlop.png)
 
 - If G = 0 then Q^+ = Q (Q will be the same value as long as the latch is inactive)
 - If G = 1 then Q^+ = D or P becomes D (P is allowed to change because the latch is active)
@@ -85,7 +85,7 @@ Falling edge D-flip flops "remember" the value between clock transitions
  ## Setup time
  >Setup time: The amount of time required for the input of a flip flop to be stable before the active clock edge occurs. 
 
- ![setup time](setupTime.png)
+ ![setup time](./images/setupTime.png)
  If setuptime is not satisfied, you might get some unstable behavior from the circuit.
 
  - In (b) FlipFlop delay + Inverter delay + setup time = 10ns. The total clock lasts for 9ns.
@@ -93,21 +93,21 @@ Falling edge D-flip flops "remember" the value between clock transitions
 
  ## S-R flip flops timing diagram example
 
- ![SR example](SRexample.png)
+ ![SR example](./images/SRexample.png)
 
  at t1, S1=S=1; R1=R=0; P = 1, S2 = 0, R2 = 1, so therefore Q = 0 and Q' = 1
 
  ## J-K flip flop timing diagram example
 
- ![](JKflipFlopExample.png)
+ ![](./images/JKflipFlopExample.png)
 
 - JK is the same as a S-R flip flpo but the forbidden output is allowed. (Q^+ = Q')
 
 (Q^+) = J Q'+K' Q
 
-![](JKfullCircuit.png)
+![](./images/JKfullCircuit.png)
 
 ## T Flip Flop
-![](TflipFlop.png)
+![](./images/TflipFlop.png)
 
 - The main difference with a T flip flop is it has a toggle input. When toggle is 1 then the clock signal is applied. If toggle is Low then the clock signal is not applied

@@ -28,6 +28,13 @@ For a link the text we want to go into the link is in brackets and the actual li
 
  \!\[hover name](image.png)
 
+ You can also reference image files from other folders by first specifying the path from the folder with the current markdown file to the folder with the desired image. 
+
+ i.e like this
+
+ ![](./images/smile)
+
+
  You can make a line divide using --- or a single #
 
  ---

@@ -40,7 +40,7 @@ Cons
 
 Example:
 
-![insertion sort](insertionSort.png)
+![insertion sort]./images/insertionSort.png)
 
 
 ## Merge sort
@@ -124,7 +124,7 @@ void mergeSort(int arr[], int left, int right) {
 
 The visual representation looks like this:
 
-![merge Sort](MergeSort.png)
+![merge Sort](./images/MergeSort.png)
 
 Pros
 
@@ -181,7 +181,7 @@ sort(vec.begin(), vec.end(), compare);
 
 Visually the alogrithm looks like this: 
 
-![quick sort](quickSort.png)
+![quick sort](./images/quickSort.png)
 
 
 Pros
@@ -211,3 +211,384 @@ A great website to visuallty see this algorithm as well as practice for that que
 #
 #
 
+## 3/06/25 Additional sorting algorithm notes
+[Youtube reference video](https://www.youtube.com/watch?v=rbbTd-gkajw)
+
+## Bubble sort
+- easiest to implement
+- works by taking the first two indexs and compares the two. If the value rightmost index is more than the left one then they swap. It then moves one index over each
+- repeats until fully sorted
+---
+-- i.e --
+
+2, 1, 5, 3, 4
+
+^   ^ (2 !< 1 so swap)
+
+1, 2, 5, 3, 4
+
+--^ ^(2 < 5 so stay) 
+
+1, 2, 5, 3, 4
+
+-----^ ^ (5 !< 3 so swap)
+
+1, 2, 3, 5, 4
+
+-------^ ^(5 !< 4 so swap)
+
+1, 2, 3, 4, 5
+
+Sorted!!
+
+---
+  
+- Has terrible performance
+- The time complexity is O(n^2)
+
+## Selection sort
+
+- Known as an in place comparsion sorting algorithm
+- Divideds unsorted array into a sorted sublist
+- The algorithm goes through the entire list until it finds the smallest value, and swaps it with the value at the front of the list.
+- Does this until entire list is sorted
+
+---
+Selection Sort Example:
+
+5, 3, 1, 4, 2
+^ -------> (find min in whole array: 1)
+
+^ (swap 5 with 1)
+
+1, 3, 5, 4, 2
+
+  ^ ------> (find min in remaining array: 2)
+
+  ^ (swap 3 with 2)
+
+1, 2, 5, 4, 3
+
+    ^ ----> (find min in remaining array: 3)
+
+    ^ (swap 5 with 3)
+
+1, 2, 3, 4, 5
+
+      ^ --> (find min in remaining array: 4)
+
+      ^ (already in place, no swap)
+
+1, 2, 3, 4, 5
+
+        ^ (last element, already sorted)
+        
+1, 2, 3, 4, 5
+
+Sorted!!
+
+---
+
+- The time complexity for this is also O(n^2) [not very good]
+
+
+## Insertion sort
+
+- similar to selection sort 
+- Creates 2 arrays, 1 sorted, 1 unsorted
+- Goes through elemenets 1 by 1 in the unsorted array 
+- It iterates over each number to see if the next is between them.
+
+---
+
+Insertion Sort Example:
+
+5, 3, 1, 4, 2
+
+^ ^ (compare 3 with 5, 3 < 5 so insert 3 before 5)
+
+3, 5, 1, 4, 2
+
+--^ ^ (compare 1 with 5, 1 < 5 so continue)
+
+^ ^ (compare 1 with 3, 1 < 3 so insert 1 before 3)
+
+1, 3, 5, 4, 2
+
+----^ ^ (compare 4 with 5, 4 < 5 so insert 4 before 5)
+
+1, 3, 4, 5, 2
+
+------^ ^ (compare 2 with 5, 2 < 5 so continue)
+
+----^ ^ (compare 2 with 4, 2 < 4 so continue)
+
+--^ ^ (compare 2 with 3, 2 < 3 so continue)
+
+^ ^ (compare 2 with 1, 2 > 1 so insert 2 after 1)
+
+1, 2, 3, 4, 5
+
+Sorted!!
+
+---
+
+- Also has time complexity O(n^2) however is more desirable than both selection sort and bubble sort
+- It is a great option for very small lists but extremely impracticle for much larger lists
+
+## Merge sort
+- comparison based algorithm
+- one of the divide and conquer algorithm
+
+1) splits array into equal chunks again and again
+2) Then merge the sub arrays into other sub arrays and compare their contents.
+3) continue doing this until all of the sub arrays are made back into the original array
+
+
+---
+
+Merge Sort Example:
+
+Original array:
+
+5, 3, 1, 4, 2
+
+Divide into subarrays:
+
+[5, 3] [1, 4, 2]
+
+Further divide:
+
+[5] [3] [1] [4, 2]
+
+Further divide:
+
+[5] [3] [1] [4] [2]
+
+Merge [5] and [3]:
+
+^ ^ (compare 5 with 3, 3 < 5)
+
+[3, 5]
+
+Merge [1] and [4]:
+
+^ ^ (compare 1 with 4, 1 < 4)
+
+[1, 4]
+
+Merge [1, 4] and [2]:
+
+^ --^ (compare 1 with 2, 1 < 2)
+
+[1] [2, 4]
+
+--^ ^ (compare 4 with 2, 2 < 4)
+
+[1, 2, 4]
+
+Merge [3, 5] and [1, 2, 4]:
+
+^ ----^ (compare 3 with 1, 1 < 3)
+
+[1] [3, 5] [2, 4]
+
+--^ ----^ (compare 3 with 2, 2 < 3)
+
+[1, 2] [3, 5] [4]
+
+----^ --^ (compare 3 with 4, 3 < 4)
+
+[1, 2, 3] [5, 4]
+
+------^ ^ (compare 5 with 4, 4 < 5)
+
+[1, 2, 3, 4, 5]
+
+Sorted!!
+
+---
+
+- The time complexity of this is O(nlogn)
+
+## Quick sort
+- Similar to merge sort but needs a pivot
+- Note there are many ways to choose the pivot
+- in the example below, the pivot is chosen as the rightmost value
+- Sub arrays are then made around the pivot (one sub array with values that are less than the pivot) (One where values are larger than the pivot)
+- Then a pivot point is chosen in the sub list and then the process repeats recursively until the entire list is sorted
+
+---
+
+Quick Sort Example:
+
+Original array:
+
+5, 3, 1, 4, 2
+
+Choose pivot (rightmost element):
+
+5, 3, 1, 4, 2
+
+----------^ (pivot = 2)
+
+Partition:
+
+5, 3, 1, 4, 2
+
+^ (5 > 2, move to right)
+
+5, 3, 1, 4, 2
+
+--^ (3 > 2, move to right)
+
+5, 3, 1, 4, 2
+
+----^ (1 < 2, stay on left)
+
+1, 3, 5, 4, 2
+
+------^ (4 > 2, move to right)
+
+1, 3, 5, 4, 2
+
+--------^ (pivot, swap with rightmost unsorted)
+
+1, 2, 5, 4, 3
+
+  ^ (pivot position)
+
+Recursively sort left subarray [1]:
+
+1
+
+^ (already sorted, single element)
+
+Recursively sort right subarray [5, 4, 3]:
+
+5, 4, 3
+
+----^ (pivot = 3)
+
+Partition:
+
+5, 4, 3
+
+^ (5 > 3, move to right)
+
+5, 4, 3
+
+--^ (4 > 3, move to right)
+
+5, 4, 3
+
+----^ (pivot, swap with rightmost unsorted)
+
+3, 4, 5
+
+^ (pivot position)
+
+Recursively sort left subarray []:
+
+(empty, nothing to sort)
+
+Recursively sort right subarray [4, 5]:
+
+4, 5
+
+--^ (pivot = 5)
+
+Partition:
+
+4, 5
+
+^ (4 < 5, stay on left)
+
+4, 5
+
+--^ (pivot position)
+
+Combine all sorted partitions:
+
+1, 2, 3, 4, 5
+
+
+Sorted!!
+
+---
+
+- The time complexity is O(n^2)
+
+---
+---
+## Self notes for trees 
+[Youtube reference video](https://www.youtube.com/watch?v=1-l_UOFi1Xw)
+
+- Trees are similar to a linked list but the main difference is nodes can connect to multiple different nodes therefore making a tree
+![](./images/tree.png)
+
+The class for the node might look like this
+``` cppp
+class Node 
+{
+    int data;
+    Node child1;
+    Node child2;
+    Node child3;
+};
+```
+In the example above:
+
+ 1 would be the main node with the three children 9, 10, 2. 
+
+2 becomes a parent node with -1, 5, 4
+
+5 becomes a parent node with 4, 2 (Note this only has 2 child nodes so child3 would be set to NULL)
+
+Also note that nodes that have no children have their children set to NULL. For example the node -1.
+
+
+---
+
+
+Another example of a tree is a binary tree which looks like this.
+![](./images/topDownTree.png) 
+- The main differnce here is the nodes have at most 2 child nodes.
+
+The class for this structre might look like this:
+
+``` cppp
+class Node 
+{
+    int data;
+    Node left;
+    Node right;
+   
+};
+
+```
+
+- binary trees have at most 2 children for each node
+
+### Examples of what are considered trees and what isn't
+---
+![](./images/treeGae.png)
+---
+- Note if multiple nodes connect to one node, then the structure IS NOT a tree (The bottom two examples)
+- This is because from the root node there must be only unique paths to each node. If you were able to go two different paths from the root node to a node, then it is not a tree.
+
+
+### Practice problem
+![](./images/treePracticeProblem.png)
+
+**Answer**
+
+```cpp
+int findSum(root)
+{
+    if(root == NULL)
+        return 0;
+    else
+        return root.value + findSum(root.left) + findSum(root.right);
+}
+```
