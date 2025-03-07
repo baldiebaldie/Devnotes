@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "27919c64ed47b605",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fb09c4828611fa5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6388529bd1cf360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructuresNotes/Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trees"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f62faff0e74fec00",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fb5808500e79c15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d59ee8023a8c6584",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cede89d0f41ffed2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e96cf79e4c62177f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "32724063c6cfcf22",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dd06a74d6b79d16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "720cb0bb096caec5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DataStructuresNotes/Trees.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Trees"
+            }
+          },
+          {
+            "id": "174065d28ce196e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DataStructuresNotes/Trees.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Trees"
+            }
+          },
+          {
+            "id": "bc19be7ed2b97fcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "97ed821ca80d2840",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DataStructuresNotes/Trees.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Trees"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a6388529bd1cf360",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Other notes",
+    "DataStructuresNotes/Trees.md",
+    "DataStructuresNotes.md",
+    "DataStructuresNotes/Types of sorting.md",
+    "ComputerLogicAndDesign/Latches and Flipflops.md",
+    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
+    "ComputerNetworkNotes/Chapter 4 notes cont..md",
+    "ComputerNetworkNotes/Chapter 4 notes.md",
+    "ComputerLogicAndDesignNotes.md",
+    "ComputerNetworksNotes.md",
+    "Other notes/markDownNotes.md",
+    "Templates/Automata and Language theory.md",
+    "Templates/Computer Logic and Design.md",
+    "Templates/Computer networks.md",
+    "Templates/Data Structures.md",
+    "Templates",
+    "AutomataAndLanguageTheoryNotes",
+    "DataStructuresNotes",
+    "ComputerNetworkNotes",
+    "ComputerLogicAndDesign",
+    "Screenshot 2025-03-07 at 11.06.14 AM.png"
+  ]
+}
