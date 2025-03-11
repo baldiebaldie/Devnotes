@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AutomataAndLanguageTheoryNotes/Context free grammar.md",
+                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Context free grammar"
+              "title": "Synchronous Sequential Logic Circuit"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AutomataAndLanguageTheoryNotes/Context free grammar.md",
+                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Context free grammar"
+              "title": "Backlinks for Synchronous Sequential Logic Circuit"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AutomataAndLanguageTheoryNotes/Context free grammar.md",
+                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Context free grammar"
+              "title": "Outgoing links from Synchronous Sequential Logic Circuit"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AutomataAndLanguageTheoryNotes/Context free grammar.md",
+                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Context free grammar"
+              "title": "Outline of Synchronous Sequential Logic Circuit"
             }
           }
         ]
@@ -168,13 +168,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cd4a71bb052f1bc",
+  "active": "d59ee8023a8c6584",
   "lastOpenFiles": [
-    "images/DerivationSlide.png",
-    "images/ParseTreeExample.png",
-    "AutomataAndLanguageTheoryNotes/Context free grammar.md",
+    "images/stateVerilogExample.png",
+    "images/EditedVerilogExampleWsequentialCircuit.png",
+    "images/verilogExamplesWithSequentialCircuit.png",
+    "images/State Diagram.png",
+    "images/SequentialFlipFlop.png",
+    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+    "DataStructuresNotes/Stacks.md",
     "2025-03-07.md",
+    "Pasted image 20250310155015.png",
     "DataStructuresNotes/Trees.md",
+    "images/propertiesOfBinaryTrees.png",
+    "images/BalancedBinaryTree.png",
+    "images/CompleteBinaryTree.png",
+    "images/perfectBinaryTree.png",
+    "images/ProperBinaryTree.png",
+    "AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "Untitled.md",
     "Other notes",
     "DataStructuresNotes.md",
@@ -194,7 +205,6 @@
     "AutomataAndLanguageTheoryNotes",
     "DataStructuresNotes",
     "ComputerNetworkNotes",
-    "ComputerLogicAndDesign",
-    "Screenshot 2025-03-07 at 11.06.14 AM.png"
+    "ComputerLogicAndDesign"
   ]
 }
