@@ -149,4 +149,10 @@ endmodule
 - "?" in the code is shorthand for if/else...
 		((y == B) && (x == 1)) ?
 		- if true then z = 1
-		- if false then z = 0
+		- if false then z = 0'
+Equation for a JK flip flop is:
+	Q^+=JQ'+K'Q
+	J, K, and z are what?
+	z is xy
+	x' and x so the equation then becomes x'Q'+x'Q --> x'(Q'+Q) --> x'
+	So in this case for the JK flip flop the next state of Q will be x'.![[JKFLIPFLOP.png]]![[JKFlipFlopTables.png]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+                "file": "ComputerNetworkNotes/Chapter 5 notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Synchronous Sequential Logic Circuit"
+              "title": "Chapter 5 notes"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "32724063c6cfcf22",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+                "file": "ComputerNetworkNotes/Chapter 4 notes cont..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Synchronous Sequential Logic Circuit"
+              "title": "Backlinks for Chapter 4 notes cont."
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+                "file": "ComputerNetworkNotes/Chapter 4 notes cont..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Synchronous Sequential Logic Circuit"
+              "title": "Outgoing links from Chapter 4 notes cont."
             }
           },
           {
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+                "file": "ComputerNetworkNotes/Chapter 4 notes cont..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Synchronous Sequential Logic Circuit"
+              "title": "Outline of Chapter 4 notes cont."
             }
           }
         ]
@@ -168,39 +169,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d59ee8023a8c6584",
+  "active": "0cd4a71bb052f1bc",
   "lastOpenFiles": [
+    "images/Graph.png",
+    "2025-03-25.md",
+    "images/Screenshot 2025-03-14 at 11.17.33 AM.png",
+    "ComputerNetworkNotes/Chapter 5 notes.md",
+    "Templates/Data Structures.md",
+    "ComputerNetworkNotes/Chapter 4 notes cont..md",
+    "ComputerNetworkNotes/Chapter 4 notes.md",
+    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
+    "ComputerLogicAndDesign/Latches and Flipflops.md",
+    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+    "images/JKFlipFlopTables.png",
+    "images/JKFLIPFLOP.png",
     "images/stateVerilogExample.png",
     "images/EditedVerilogExampleWsequentialCircuit.png",
     "images/verilogExamplesWithSequentialCircuit.png",
     "images/State Diagram.png",
     "images/SequentialFlipFlop.png",
-    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
     "DataStructuresNotes/Stacks.md",
     "2025-03-07.md",
     "Pasted image 20250310155015.png",
     "DataStructuresNotes/Trees.md",
-    "images/propertiesOfBinaryTrees.png",
-    "images/BalancedBinaryTree.png",
-    "images/CompleteBinaryTree.png",
-    "images/perfectBinaryTree.png",
-    "images/ProperBinaryTree.png",
     "AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "Untitled.md",
     "Other notes",
     "DataStructuresNotes.md",
     "DataStructuresNotes/Types of sorting.md",
-    "ComputerLogicAndDesign/Latches and Flipflops.md",
-    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
-    "ComputerNetworkNotes/Chapter 4 notes cont..md",
-    "ComputerNetworkNotes/Chapter 4 notes.md",
     "ComputerLogicAndDesignNotes.md",
     "ComputerNetworksNotes.md",
     "Other notes/markDownNotes.md",
     "Templates/Automata and Language theory.md",
     "Templates/Computer Logic and Design.md",
     "Templates/Computer networks.md",
-    "Templates/Data Structures.md",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
     "DataStructuresNotes",
