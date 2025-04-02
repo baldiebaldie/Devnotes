@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetworkNotes/Chapter 5 notes.md",
+                "file": "DataStructuresNotes/Maps and hashes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 5 notes"
+              "title": "Maps and hashes"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "32724063c6cfcf22",
@@ -171,27 +170,29 @@
   },
   "active": "0cd4a71bb052f1bc",
   "lastOpenFiles": [
+    "ComputerNetworkNotes/Midterm 2 review.md",
+    "DataStructuresNotes/Maps and hashes.md",
+    "ComputerNetworkNotes/Chapter 4 notes cont..md",
+    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
+    "ComputerNetworkNotes/Chapter 4 notes.md",
+    "2025-03-25.md",
+    "ComputerNetworkNotes/Chapter 5 notes.md",
+    "DataStructuresNotes/Binary serach.md",
+    "images/Screenshot 2025-03-31 at 4.04.27 PM.png",
+    "images/CompleteBinaryTree.png",
+    "images/binarySearchExample.png",
+    "images/dLatchFlipFlop.png",
     "images/SMNPapproaches.png",
     "images/ClassesOfIPadresses.png",
     "images/OSPF example.png",
     "DataStructuresNotes/Heaps.md",
     "DataStructuresNotes/Priority queues.md",
     "images/Priority queues.png",
-    "ComputerNetworkNotes/Chapter 5 notes.md",
     "images/Graph.png",
-    "2025-03-25.md",
     "images/Screenshot 2025-03-14 at 11.17.33 AM.png",
     "Templates/Data Structures.md",
-    "ComputerNetworkNotes/Chapter 4 notes cont..md",
-    "ComputerNetworkNotes/Chapter 4 notes.md",
-    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "ComputerLogicAndDesign/Latches and Flipflops.md",
     "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
-    "images/JKFlipFlopTables.png",
-    "images/JKFLIPFLOP.png",
-    "images/stateVerilogExample.png",
-    "images/EditedVerilogExampleWsequentialCircuit.png",
-    "images/verilogExamplesWithSequentialCircuit.png",
     "DataStructuresNotes/Stacks.md",
     "2025-03-07.md",
     "DataStructuresNotes/Trees.md",

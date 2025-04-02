@@ -73,9 +73,9 @@ Network management:
 - NMS (network management station) - These could be included to solve different network problems in several different ways. One way is to regularly send out pings to each node in the network and see if it gets responses. If the pings doesn't get a response in a specific amount of time, it will tell the manager that there might be a problem. This is very very basic, checking if the machine is up. This uses ICMP
 SNMP (simple network management protocol) - The client is a NMS and the server could be any process running SNMPD. Client asks server a question and gets an answer. 
 - Examples of questions (structured and specific)
-	- use things called a MIB (Message information base) and follows a formal data strucure.
+	- use things called a MIB (Message information base) and follows a formal data structure.
 	- asks all sort of things about the devices
-Several tools to apporach management
+Several tools to approach management
 - CLI (command line interface) - something like bash or cmd which will tell you all sorts of you things you need to know
 - SNMP/MIB - operator questions to devices using SNMP
 	- There are two ways to convey MIB info.
