@@ -1,3 +1,6 @@
 {
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
