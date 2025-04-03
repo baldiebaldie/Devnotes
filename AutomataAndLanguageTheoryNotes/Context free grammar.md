@@ -66,7 +66,8 @@ There are two common ways to perform derivations:
 - Leaves: Labeled by a terminal or λ.
 - Root: Start symbol
 Example of a Parse tree
-![[ParseTreeExample.png]]
+![](../images/ParseTreeExample.png)
+
 
 ### Ambiguity 
 A CFG is *ambiguous* if there is a string in the language that is the yield of two or more parse trees. In other words there is more than one way to make the same string. 

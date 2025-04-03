@@ -37,8 +37,8 @@ put(k, v)
 - if there is not an existing entry with the key k, then make a new entry [entry(k, v)]. If the key DOES exist, then update that keys value to v.
 erase(k)
 - If an entry with the key k exists, then remove it.
-Example of these functions in action:
-![[MapExample.png]]
+Example of these functions in action:![](../images/MapExample.png)
+
 
 How do you initialize a map?
 1. Include the map library 
@@ -90,8 +90,7 @@ Think of it like a juicer. You can put in different fruits (data) of different s
 We use different methods. In the case of *Division Compressions and primes*, the formula is:
 - ### *h$_2$ (y) = y mod N*
 
-Here is an example:
-![[HashCompresssionExcample.png]]
+Here is an example:![](../images/HashCompresssionExcample.png)
 
 K1 is essentailly the best case of this type of compression and K2 is an example of a bad case.
 
@@ -111,5 +110,5 @@ The way it works is by looking at what buckets are empty and out of use. Then wh
 - **O**pen addressing: Look for another spot
 - **P**rime numbers: Use prime table sizes to reduce collisions
 
-In this example the Compression formula is h(k) = (3k + 3) mod 11
-![[CollisionExample1.png]]![[CollisionExample2.png]]
+In this example the Compression formula is h(k) = (3k + 3) mod 11![](../images/CollisionExample1.png)
+![](../images/CollisionExample2.png)

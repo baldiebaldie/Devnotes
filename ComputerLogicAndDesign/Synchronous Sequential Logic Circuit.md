@@ -2,8 +2,8 @@ Computer Logic and Design
 03-11-2025
 
 *How to tell if a flip flop is rising or falling. If there is a not gate on the clock then the flip flop is falling and if not, then the flip flop is rising.* 
+![](../images/SequentialFlipFlop.png)
 
-![[SequentialFlipFlop.png]]
 
 #### \*In an exam, I will be expected to determine those equations on the right.\*
 
@@ -77,8 +77,8 @@ always @(posedge clk) q <= d;  // Updates q with value of d at the end of time s
 ```
 
 Example tying it all together...
+![](../images/EditedVerilogExampleWsequentialCircuit.png)
 
-![[EditedVerilogExampleWsequentialCircuit.png]]
 Verilog Code of diagram above:
 ``` verilog 
 module Circuit5_3structural         // name of function 
@@ -122,8 +122,9 @@ module Dflip_flop(
 endmodule
 
 ```
-![[stateVerilogExample.png]]
 
+
+![](../images/stateVerilogExample.png)
 ``` verilog 
 //Circuit of Fig. 5.3, Behavioral Verilog Model
 module Circuit5_3behavioral (
@@ -155,4 +156,5 @@ Equation for a JK flip flop is:
 	J, K, and z are what?
 	z is xy
 	x' and x so the equation then becomes x'Q'+x'Q --> x'(Q'+Q) --> x'
-	So in this case for the JK flip flop the next state of Q will be x'.![[JKFLIPFLOP.png]]![[JKFlipFlopTables.png]]
+	So in this case for the JK flip flop the next state of Q will be x'.
+	![](../images/JKFlipFlopTables.png)![](../images/JKFLIPFLOP.png)
