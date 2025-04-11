@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerLogicAndDesign/Reduction of state tables.md",
+                "file": "ComputerNetworkNotes/Chapter 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reduction of state tables"
+              "title": "Chapter 7"
             }
           }
         ]
@@ -168,13 +168,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d59ee8023a8c6584",
+  "active": "8e1d64d498378a3c",
   "lastOpenFiles": [
+    "ComputerNetworkNotes/Chapter 6.md",
+    "ComputerNetworkNotes/Chapter 7.md",
+    "ComputerLogicAndDesign/Reduction of state tables.md",
+    "images/inClassExample.jpg",
+    "images/reducedTableThroughImplication.png",
+    "images/FinalImplcationTable.png",
+    "images/ImplicationTable.png",
     "images/eliminationThroughRedundancy2.png",
     "images/eliminationThroughRedundancy1.png",
     "images/sequenceDetector.png",
     "DataStructuresNotes/Binary Search Tree andAVL Trees.md",
-    "ComputerLogicAndDesign/Reduction of state tables.md",
     "AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "ComputerLogicAndDesign/Latches and Flipflops.md",
@@ -193,11 +199,6 @@
     "images/binarySearchExample.png",
     "DataStructuresNotes/Binary serach.md",
     "images/bufferingFormula.png",
-    "images/ClassesOfIPadresses.png",
-    "images/BalancedBinaryTree.png",
-    "images/CollisionExample1.png",
-    "images/HashCompresssionExcample.png",
-    "images/MapExample.png",
     "2025-03-25.md",
     "Templates/Data Structures.md",
     "2025-03-07.md",
@@ -206,7 +207,6 @@
     "DataStructuresNotes.md",
     "ComputerLogicAndDesignNotes.md",
     "ComputerNetworksNotes.md",
-    "Other notes/markDownNotes.md",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
     "DataStructuresNotes",
