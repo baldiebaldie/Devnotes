@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetworkNotes/Chapter 7.md",
+                "file": "DataStructuresNotes/What to study for midterm 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 7"
+              "title": "What to study for midterm 3"
             }
           }
         ]
@@ -170,8 +170,14 @@
   },
   "active": "8e1d64d498378a3c",
   "lastOpenFiles": [
-    "ComputerNetworkNotes/Chapter 6.md",
+    "DataStructuresNotes/Binary serach.md",
+    "DataStructuresNotes/What to study for midterm 3.md",
+    "DataStructuresNotes/Maps and hashes.md",
+    "DataStructuresNotes/Types of sorting.md",
+    "DataStructuresNotes/AVL trees.md",
+    "DataStructuresNotes/Trees.md",
     "ComputerNetworkNotes/Chapter 7.md",
+    "ComputerNetworkNotes/Chapter 6.md",
     "ComputerLogicAndDesign/Reduction of state tables.md",
     "images/inClassExample.jpg",
     "images/reducedTableThroughImplication.png",
@@ -189,15 +195,11 @@
     "ComputerNetworkNotes/Chapter 4 notes cont..md",
     "ComputerNetworkNotes/Chapter 5 notes.md",
     "ComputerNetworkNotes/Midterm 2 review.md",
-    "DataStructuresNotes/Types of sorting.md",
-    "DataStructuresNotes/Trees.md",
     "DataStructuresNotes/Stacks.md",
     "DataStructuresNotes/Priority queues.md",
-    "DataStructuresNotes/Maps and hashes.md",
     "images/CollisionExample2.png",
     "DataStructuresNotes/Heaps.md",
     "images/binarySearchExample.png",
-    "DataStructuresNotes/Binary serach.md",
     "images/bufferingFormula.png",
     "2025-03-25.md",
     "Templates/Data Structures.md",
@@ -205,8 +207,6 @@
     "Untitled.md",
     "Other notes",
     "DataStructuresNotes.md",
-    "ComputerLogicAndDesignNotes.md",
-    "ComputerNetworksNotes.md",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
     "DataStructuresNotes",
