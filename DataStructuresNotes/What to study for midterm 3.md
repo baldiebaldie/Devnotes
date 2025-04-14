@@ -19,7 +19,7 @@ TOPICS ON MIDTERM 3
 	- [VisualAlgo Seperate chaining and quadratic probing ](https://visualgo.net/en/hashtable?slide=1)
 	- Slides collision handling questions: Quadtratic probing questions: (NOTE for these questions there is no coding, you must draw the hash table)
 6. Binary search tree (1q coding question)
-	- [Binary Search Tree andAVL Trees](Binary%20Search%20Tree%20andAVL%20Trees.md)
+	- [Binary Search Trees](Binary%20Search%20Trees.md)
 	- binary search tree worksheet (q1, q2): old midterm 3 (q5)
 	- NO BFS OR DFS
 

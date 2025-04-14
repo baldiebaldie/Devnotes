@@ -21,7 +21,7 @@ For block quote you use the \> operator at the beginning of a line
 
 >Example of a comment or quote
 
-For a link the text we want to go into the link is in brackets and the actual link itself into parantheses
+For a link the text we want to go into the link is in brackets and the actual link itself into parentheses
  [Example link](https://github.com/baldiebaldie)
 
  For an image it is the same syntax as a link just with a !. Like this
