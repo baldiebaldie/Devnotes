@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructuresNotes/What to study for midterm 3.md",
+                "file": "ComputerLogicAndDesign/Programmable digital logic devices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What to study for midterm 3"
+              "title": "Programmable digital logic devices"
             }
           }
         ]
@@ -170,7 +170,17 @@
   },
   "active": "8e1d64d498378a3c",
   "lastOpenFiles": [
+    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
+    "images/PALexampleDiagram.png",
+    "ComputerLogicAndDesign/Programmable digital logic devices.md",
+    "images/PLAdiagran.png",
+    "images/PROMexample.png",
     "Other notes/markDownNotes.md",
+    "images/ROMexampleAnswer.png",
+    "images/ExampleROM.png",
+    "images/ROMstructure.png",
+    "images/ROMexample.png",
+    "DataStructuresNotes/What to study for midterm 3.md",
     "DataStructuresNotes/Stacks.md",
     "DataStructuresNotes/Trees.md",
     "DataStructuresNotes/Binary serach.md",
@@ -178,7 +188,6 @@
     "DataStructuresNotes/Priority queues.md",
     "DataStructuresNotes/Maps and hashes.md",
     "DataStructuresNotes/Binary Search Trees.md",
-    "DataStructuresNotes/What to study for midterm 3.md",
     "DataStructuresNotes/Types of sorting.md",
     "DataStructuresNotes/AVL trees.md",
     "ComputerNetworkNotes/Chapter 7.md",
@@ -187,25 +196,15 @@
     "images/inClassExample.jpg",
     "images/reducedTableThroughImplication.png",
     "images/FinalImplcationTable.png",
-    "images/ImplicationTable.png",
-    "images/eliminationThroughRedundancy2.png",
-    "images/eliminationThroughRedundancy1.png",
-    "images/sequenceDetector.png",
     "AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "ComputerLogicAndDesign/Latches and Flipflops.md",
-    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
     "ComputerNetworkNotes/Chapter 4 notes.md",
     "ComputerNetworkNotes/Chapter 4 notes cont..md",
     "ComputerNetworkNotes/Chapter 5 notes.md",
     "ComputerNetworkNotes/Midterm 2 review.md",
-    "images/CollisionExample2.png",
-    "images/binarySearchExample.png",
-    "images/bufferingFormula.png",
     "2025-03-25.md",
     "Templates/Data Structures.md",
-    "2025-03-07.md",
-    "Untitled.md",
     "Other notes",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
