@@ -1,4 +1,4 @@
-Computer Logic and Design
+	Computer Logic and Design
 04-15-2025
 
 use programmable digital logic devices to reduce the number of circuit packages
