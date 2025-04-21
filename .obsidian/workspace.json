@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerLogicAndDesign/(FPGAs) Field programmable gate arrays.md",
+                "file": "DataStructuresNotes/Graph representation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(FPGAs) Field programmable gate arrays"
+              "title": "Graph representation"
             }
           }
         ],
@@ -197,10 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba5a6c8f03769f53",
+  "active": "d59ee8023a8c6584",
   "lastOpenFiles": [
-    "images/LUTcase3.png",
+    "images/AdjacentMatrixDiagram.png",
+    "images/EdgeList.png",
+    "images/GraphDiagram.png",
     "ComputerLogicAndDesign/(FPGAs) Field programmable gate arrays.md",
+    "DataStructuresNotes/Graph representation.md",
+    "images/figure6.5.png",
+    "images/Screenshot 2025-04-17 at 7.58.25 PM.png",
+    "images/LUTcase3.png",
     "images/LUTcase2.png",
     "images/LUTcase1.png",
     "ComputerLogicAndDesign/Reduction of state tables.md",
@@ -218,11 +224,7 @@
     "DataStructuresNotes/Trees.md",
     "images/PALexampleDiagram.png",
     "images/PLAdiagran.png",
-    "images/PROMexample.png",
     "Other notes/markDownNotes.md",
-    "images/ROMexampleAnswer.png",
-    "images/ExampleROM.png",
-    "images/ROMstructure.png",
     "DataStructuresNotes/Stacks.md",
     "DataStructuresNotes/Binary serach.md",
     "DataStructuresNotes/Maps and hashes.md",
@@ -233,7 +235,6 @@
     "ComputerNetworkNotes/Chapter 6.md",
     "AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "ComputerNetworkNotes/Chapter 5 notes.md",
-    "2025-03-25.md",
     "Other notes",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
