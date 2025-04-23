@@ -109,3 +109,127 @@ The psuedo code works as followed:
 5. If any vertex still undiscovered, choose one and restart
 [Visual representation of BFS](https://visualgo.net/en/dfsbfs)
 The idea is you want to explore all of your neighbors before looking at other neighbors neighbors
+
+#### DFS
+Depth first search (DFS)
+- recursive algorithm 
+	- simpler than BFS 
+	- Resembles pre-order in BST
+		- Remember: Pre-order was printing/processing the node first then progressing right down the tree and then right.
+	- Works by:
+	1. Marking all vertices as undiscovered
+	2. Call DFS recursively 
+	3. If a vertex has no neighbors left that are undiscovered it is popped from the stack
+	4. If any vertex is still left undiscovered then choose one and restart
+Note: We know the algorithm is finished when the call stack has nothing left in it.
+- In simple terms DFS starts with the root node and places its neighbors in a queue. Then it recursively goes to each neighbor in the stack. Then when no more neighbors are left, then nodes are recursively processed and then popped from the stack. When the stack is empty, the algorithm is finished. 
+- [Visual algo of DFS](https://visualgo.net/en/dfsbfs)
+
+#### DFS vs. BFS: Understanding the Differences
+
+## Basic Concepts
+
+**Depth-First Search (DFS)**
+
+- Goes as deep as possible along one branch before backtracking
+- Like exploring a maze by following one path until you hit a dead end
+- Uses a stack data structure (or recursion)
+- Explores far away nodes first
+
+**Breadth-First Search (BFS)**
+
+- Explores all neighbors at the current depth before moving deeper
+- Like ripples spreading out from a stone dropped in water
+- Uses a queue data structure
+- Explores nearby nodes first
+
+## Key Differences
+
+1. **Memory Usage**:
+    - DFS typically uses less memory for wide graphs
+    - BFS can use a lot of memory if the graph is wide (many neighbors)
+2. **Path Finding**:
+    - DFS doesn't necessarily find the shortest path
+    - BFS always finds the shortest path (in unweighted graphs)
+3. **Completeness**:
+    - DFS might get stuck in infinite paths (if not tracking visited nodes)
+    - BFS will always find a solution if one exists
+
+## When to Use Each Method
+
+**Best Applications for DFS**:
+
+- Maze solving
+- Puzzle games
+- Detecting cycles in graphs
+- Topological sorting (for scheduling or dependency problems)
+- Finding connected components in a graph
+- When memory is limited and the solution is far from the start
+
+**Best Applications for BFS**:
+
+- Finding the shortest path
+- Social network connections (finding friends of friends)
+- GPS navigation systems
+- Web crawlers
+- Testing if a graph is bipartite
+- When the solution is likely close to the starting point
+
+BFS is better when you want to find something close to where you start. DFS is better when you need to explore all possibilities or when solutions might be far away.
+
+#### Application
+What if we wanted to find out the distance between two nodes in a graph?
+
+To find the distance between two nodes in a graph, you'd typically use BFS (Breadth-First Search). Here's a simple explanation of how to do it:
+
+1. Start BFS from the first node.
+2. Use a queue to keep track of nodes to visit.
+3. Also keep an array called "distance" that stores how far each node is from the start.
+4. Initialize all distances to infinity, except the starting node which has distance 0.
+5. For each node you visit:
+    - Check all its neighbors
+    - If a neighbor hasn't been visited yet, mark its distance as (current node's distance + 1)
+    - Add the neighbor to the queue
+6. Continue until you either find the target node or the queue becomes empty.
+7. When you reach the target node, its distance value is the shortest path length.
+
+The code looks like this:
+
+``` cpp
+int findDistance(vector<vector<int>>& graph, int start, int end) {
+    int n = graph.size();
+    vector<int> distance(n, -1);  // -1 means not visited
+    queue<int> q;
+    
+    // Start BFS from the start node
+    distance[start] = 0;
+    q.push(start);
+    
+    while (!q.empty()) {
+        int current = q.front();
+        q.pop();
+        
+        // If we reached the end node, return its distance
+        if (current == end) {
+            return distance[current];
+        }
+        
+        // Check all neighbors
+        for (int neighbor : graph[current]) {
+            if (distance[neighbor] == -1) {  // If not visited
+                distance[neighbor] = distance[current] + 1;
+                q.push(neighbor);
+            }
+        }
+    }
+    
+    // If there's no path between start and end
+    return -1;
+}
+```
+![](../images/ClaudDistanceExample.png)
+
+
+Another example is topilogical sorting which deals with graphs that have direction:
+Here is the graph here
+![](../images/DFStopologyExample.png)

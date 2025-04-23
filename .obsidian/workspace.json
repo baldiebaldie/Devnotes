@@ -197,8 +197,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d59ee8023a8c6584",
+  "active": "ba5a6c8f03769f53",
   "lastOpenFiles": [
+    "images/DFStopologyExample.png",
+    "images/ClaudDistanceExample.png",
     "images/componentsExample.png",
     "images/AdjacentMatrixDiagram.png",
     "images/EdgeList.png",
@@ -218,12 +220,10 @@
     "ComputerNetworkNotes/Chapter 4 notes.md",
     "ComputerNetworkNotes/Chapter 4 notes cont..md",
     "ComputerNetworkNotes/Midterm 2 review.md",
-    "images/LUTdiagram.png",
     "DataStructuresNotes/What to study for midterm 3.md",
     "DataStructuresNotes/Heaps.md",
     "DataStructuresNotes/Priority queues.md",
     "DataStructuresNotes/Trees.md",
-    "images/PALexampleDiagram.png",
     "Other notes/markDownNotes.md",
     "DataStructuresNotes/Stacks.md",
     "DataStructuresNotes/Binary serach.md",
