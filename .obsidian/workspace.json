@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructuresNotes/Graph representation.md",
+                "file": "ComputerNetworkNotes/Chapter 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph representation"
+              "title": "Chapter 7"
+            }
+          },
+          {
+            "id": "fa37aa1366c2eb66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerNetworkNotes/Review for final exam.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Review for final exam"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,8 +211,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba5a6c8f03769f53",
+  "active": "fa37aa1366c2eb66",
   "lastOpenFiles": [
+    "images/q32-q33.png",
+    "images/computerNetworkPracticeExam30.png",
+    "ComputerNetworkNotes/Chapter 7.md",
+    "ComputerNetworkNotes/Review for final exam.md",
+    "ComputerNetworkNotes/Chapter 8.md",
+    "ComputerNetworkNotes/Midterm 2 review.md",
+    "ComputerNetworkNotes/Chapter 4 notes.md",
+    "ComputerNetworkNotes/Chapter 4 notes cont..md",
+    "ComputerNetworkNotes/Chapter 6.md",
+    "images/GREexample.png",
+    "DataStructuresNotes/Graph representation.md",
     "images/DFStopologyExample.png",
     "images/ClaudDistanceExample.png",
     "images/componentsExample.png",
@@ -206,20 +231,13 @@
     "images/EdgeList.png",
     "images/GraphDiagram.png",
     "ComputerLogicAndDesign/(FPGAs) Field programmable gate arrays.md",
-    "DataStructuresNotes/Graph representation.md",
     "images/figure6.5.png",
     "images/Screenshot 2025-04-17 at 7.58.25 PM.png",
-    "images/LUTcase3.png",
-    "images/LUTcase2.png",
-    "images/LUTcase1.png",
     "ComputerLogicAndDesign/Reduction of state tables.md",
     "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
     "ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "ComputerLogicAndDesign/Latches and Flipflops.md",
     "ComputerLogicAndDesign/Programmable digital logic devices.md",
-    "ComputerNetworkNotes/Chapter 4 notes.md",
-    "ComputerNetworkNotes/Chapter 4 notes cont..md",
-    "ComputerNetworkNotes/Midterm 2 review.md",
     "DataStructuresNotes/What to study for midterm 3.md",
     "DataStructuresNotes/Heaps.md",
     "DataStructuresNotes/Priority queues.md",
@@ -231,10 +249,6 @@
     "DataStructuresNotes/Binary Search Trees.md",
     "DataStructuresNotes/Types of sorting.md",
     "DataStructuresNotes/AVL trees.md",
-    "ComputerNetworkNotes/Chapter 7.md",
-    "ComputerNetworkNotes/Chapter 6.md",
-    "AutomataAndLanguageTheoryNotes/Context free grammar.md",
-    "ComputerNetworkNotes/Chapter 5 notes.md",
     "Other notes",
     "Templates",
     "AutomataAndLanguageTheoryNotes",
