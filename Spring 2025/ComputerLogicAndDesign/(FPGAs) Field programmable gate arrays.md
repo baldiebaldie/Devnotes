@@ -21,20 +21,20 @@ LUTs - an actual table that generates and output based on the inputs.
 
 An LUT with n inputs is seen to comprise of 2$^n$ single bit memory cells.
 (Note that 2:1 MUXs can be used instead of 4:1 MUX because they are more modular)
-![](../images/LUTdiagram.png)
+![](../../images/LUTdiagram.png)
 There are multiple cases in which LUTs can be useful.
 
 Case 1: N(Input Variables) = N(LUT Inputs)
 Suppose we want to realize a Boolean Function of four input variables A, B, C and D using a 4-  
 input LUT.
-![](../images/LUTcase1.png)
+![](../../images/LUTcase1.png)
 
 Case 2: N(Input Variables) > N(LUT Inputs)
 - Two 3-input LUTs share the same set of three lower-significant inputs (B, C, and D).  
 - The output from any one of these LUTs is routed onto the Y output bit (shown by a red  
 discontinuous line) using a 2:1 mux whose select line will be our fourth variable, A (MSB).
 Here we have more inputs (A,B,C,D) then we have available for our LUT. We can get around this by having another LUT to have the logic still work.
-![](../images/LUTcase2.png)
+![](../../images/LUTcase2.png)
 
 Case 3: N(Input Variables) < N(LUT Inputs)
 - Three input variables constituting the Boolean expression drive the three (LSB) inputs of the  
@@ -42,7 +42,7 @@ LUT while its fourth input (MSB) will be pulled low.
 - 8 SRAM cells are configured to hold the output values of the function while the other eight  
 cells are set to zeros.  
 In this case we have more ports in our LUT than there are inputs so in this case we use one of the MUXs as 0 where only the left side will ever work because the MUX is just 0.
-![](../images/LUTcase3.png)
+![](../../images/LUTcase3.png)
 
 
 How do engineers approach making an FPGA?

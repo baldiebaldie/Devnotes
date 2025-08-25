@@ -8,7 +8,7 @@ An examples is a line at an amusement park that offers a fast pass which allows 
 For each object pushed we will associate a nonnegative number where 0 is the top priority.
 
 Priority queues visualized:
-![](../images/Priority%20queues.png)
+![](../../images/Priority%20queues.png)
 
 
 One thing to note is due to the nature of a priority queue, every object within the queue is already sorting allowing for O(n) time complexity.

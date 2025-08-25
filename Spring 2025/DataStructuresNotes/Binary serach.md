@@ -13,7 +13,7 @@ Things to note:
 
 
 Example of binary search to visualize:
-![](../images/binarySearchExample.png)
+![](../../images/binarySearchExample.png)
 
 
 

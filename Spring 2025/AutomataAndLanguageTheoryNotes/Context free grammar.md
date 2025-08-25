@@ -66,7 +66,7 @@ There are two common ways to perform derivations:
 - Leaves: Labeled by a terminal or λ.
 - Root: Start symbol
 Example of a Parse tree
-![](../images/ParseTreeExample.png)
+![](../../images/ParseTreeExample.png)
 
 
 ### Ambiguity 

@@ -8,7 +8,7 @@ Let say you are on your computer connected to the internet trying to access work
 >Tunnels - A virtual connection between your host to another host (can be a firewall) that is not through a network.
 
 made by taking the datagram and wraps it inside an IP packet. This outside layer is removed through the firewall which reroutes the datagram to its destination. This is an example of a GRN (generic routing tunnel).
-![](../images/GREexample.png)
+![](../../images/GREexample.png)
 
 VPN (virtual private network) - almost always an encrypted connection to another organization
  - Its essentially a way to become a member of an encrypted private network, very similar to tunneling. Difference is VPNS authenticate("IPSec" / "Pre-Shared key" PSK which is essentially a password) and encrypt

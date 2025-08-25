@@ -79,19 +79,19 @@ Binary trees are recursive definitions. Always think recursively when trying to 
 Binary tree terms:
 	- Proper binary tree: Tree in which every node has either 0 or 2 children
  
-![](../images/ProperBinaryTree.png)
+![](../../images/ProperBinaryTree.png)
 
 	- Perfect binary tree - Tree where all trees have two children and all leaves the same depth or same level
-![](../images/perfectBinaryTree.png)
+![](../../images/perfectBinaryTree.png)
 - Complete binary tree - Every lateral level is completely filled except for possibly the last. All the nodes in the last level are as far left as possible
 ![[CompleteBinaryTree.png]]
 Note that the tree on the right is not complete because the third level is not completely filled.
-- Balanced binary tree - The left and rights subtrees heights differ by at most 1.![](../images/BalancedBinaryTree.png)
+- Balanced binary tree - The left and rights subtrees heights differ by at most 1.![](../../images/BalancedBinaryTree.png)
 
 In this example, the height of the left subtree is 2 a->b->e and the right is 3 a->c->f->m so its balanced. 
 
 >**Note there is 15 points on the exam between these four definitions
->![](../images/propertiesOfBinaryTrees.png)**
+>![](../../images/propertiesOfBinaryTrees.png)**
 
 
 

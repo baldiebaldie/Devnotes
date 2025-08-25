@@ -8,7 +8,7 @@ The goal of any routing algo is to find "good paths" from the sending host to th
 >Good: Could mean different things. Could mean the least "cost" path, "fastest" path, or even "least congested" path.
 
 Graphs are used to show paths. This is the notation here. 
-![](../images/Graph.png)
+![](../../images/Graph.png)
 The link cost between two nodes that aren't connecting is infinity.
 Routing algorithms can be defined by 4 things on a spectrum.
 Whether or not they are global/decentralized or whether or not static/dynamic.
@@ -52,7 +52,7 @@ OPSF paths are publicly available.
 - All OSPF messages are authenticated allowing for a level of security.
 - OSPF networks know the topology of its entire network and thus uses Dijkstra's algorithm to compute its forwarding table.
 In OSPS there is a two layer hierarchy: The local network and backbone
-![](../images/OSPF%20example.png)
+![](../../images/OSPF%20example.png)
 
 - Every OSPS network needs an area 0 which is considered the backbone of the network.
 - In this example, areas 1 2 3 are all local networks and are also referred to as bordering routers
@@ -60,7 +60,7 @@ In OSPS there is a two layer hierarchy: The local network and backbone
 Multicast works
 - One computer will send out an IP pack where it will go to all members of the multicast group. These members can go across routers.
 Below are the classes of IP classes
-![](../images/ClassesOfIPadresses.png)
+![](../../images/ClassesOfIPadresses.png)
 
 
 ## ICMP: Internet control message protocol 
@@ -83,6 +83,6 @@ Several tools to approach management
 	- There are two ways to convey MIB info.
 	1. Request response mode
 	2. Trap mode
-![](../images/SMNPapproaches.png)
+![](../../images/SMNPapproaches.png)
 
 

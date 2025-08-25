@@ -17,7 +17,7 @@ Examples of data structure graphs are
 - Adjacent: Two vertices connected with an edge
 - Incident: Vertex and an edge where the vertex is an endpoint
 - Degree: The number of vertices adjacent to a given vertex (deg(v))
-![](../images/GraphDiagram.png)
+![](../../images/GraphDiagram.png)
 
 How can we represent a graph as a data structure?
 Four notable represntations:
@@ -31,7 +31,7 @@ Four notable represntations:
 
 - May be sorted or unsorted 
 - Edges must be undirected meaning that there is no direction of edges between nodes. If there was a direction V$_0$ --> V$_1$  but not V$_1$ --> V$_0$ 
-![](../images/EdgeList.png)
+![](../../images/EdgeList.png)
 
 #### Edge list operations:
 -  AddVertex()  
@@ -57,7 +57,7 @@ Four notable represntations:
 ### Adjacency Matrix 
 - We have an n by n matrix
 - If two given vertices are adjacent, then it is denoted by a 1 and 0 otherwise.
-![](../images/AdjacentMatrixDiagram.png)
+![](../../images/AdjacentMatrixDiagram.png)
 - Note if the matrix is always symmetrical for undirected graphs...
 	- Therefore you only need to store the lower triangle of the matrix to optimize the matrix
 - Also adjacency matrices can support weight (the "cost" of links). Instead of putting just 1 to indicate adjacency just use the cost of the link instead.
@@ -88,7 +88,7 @@ Four notable represntations:
 - Connected: two vertices that have a path between them
 - Component: Maximal set of connected vertices in a graph
 	- Maximal = cannot be enlarged by adding more vertices
-	![](../images/componentsExample.png)
+	![](../../images/componentsExample.png)
 #### BFS
 Breadth first search (BFS)
 - Queue-based traversal  
@@ -227,9 +227,9 @@ int findDistance(vector<vector<int>>& graph, int start, int end) {
     return -1;
 }
 ```
-![](../images/ClaudDistanceExample.png)
+![](../../images/ClaudDistanceExample.png)
 
 
 Another example is topilogical sorting which deals with graphs that have direction:
 Here is the graph here
-![](../images/DFStopologyExample.png)
+![](../../images/DFStopologyExample.png)

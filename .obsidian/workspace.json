@@ -13,40 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructuresNotes/Heaps.md",
+                "file": "Fall 2025/OperatingSystems/What is an operating system?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heaps"
+              "title": "What is an operating system?"
             }
           },
           {
-            "id": "1b881938cc8435ee",
+            "id": "bef223f0a86c8e9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructuresNotes/Priority queues.md",
+                "file": "Fall 2025/OperatingSystems/What is an operating system?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Priority queues"
-            }
-          },
-          {
-            "id": "ba5a6c8f03769f53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructuresNotes/Final review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Final review"
+              "title": "What is an operating system?"
             }
           },
           {
@@ -55,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructuresNotes/Final review.md",
+                "file": "Spring 2025/DataStructuresNotes/Final review.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,49 +197,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba5a6c8f03769f53",
+  "active": "bef223f0a86c8e9c",
   "lastOpenFiles": [
-    "images/Screenshot 2025-04-30 at 4.01.11 PM.png",
-    "DataStructuresNotes/Graph representation.md",
-    "DataStructuresNotes/Heaps.md",
-    "DataStructuresNotes/Maps and hashes.md",
-    "DataStructuresNotes/Binary Search Trees.md",
-    "DataStructuresNotes/Binary serach.md",
-    "DataStructuresNotes/Final review.md",
-    "DataStructuresNotes/What to study for midterm 3.md",
-    "DataStructuresNotes/Types of sorting.md",
-    "DataStructuresNotes/Trees.md",
-    "DataStructuresNotes/Stacks.md",
-    "DataStructuresNotes/Priority queues.md",
-    "AutomataAndLanguageTheoryNotes/Context free grammar.md",
-    "ComputerNetworkNotes/Chapter 7.md",
+    "Spring 2025/DataStructuresNotes/Final review.md",
+    "Fall 2025/OperatingSystems/What is an operating system?.md",
+    "Pasted image 20250825151118.png",
+    "images/Pasted image 20250825151059.png",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "Untitled.md",
-    "ComputerNetworkNotes/Review for final exam.md",
+    "Spring 2025/DataStructuresNotes/Graph representation.md",
+    "Spring 2025/DataStructuresNotes/AVL trees.md",
+    "Spring 2025/DataStructuresNotes/Binary Search Trees.md",
+    "Fall 2025/Untitled.md",
+    "Fall 2025/SoftwareEngineering",
+    "Fall 2025/SystemSoftwareDevelopment",
+    "Fall 2025/ComputerArchitecture",
+    "Fall 2025/OperatingSystems",
+    "Fall 2025",
+    "Fall 2025.md",
+    "Spring 2025",
+    "images/Screenshot 2025-04-30 at 4.01.11 PM.png",
+    "Spring 2025/DataStructuresNotes/Heaps.md",
+    "Spring 2025/DataStructuresNotes/Maps and hashes.md",
+    "Spring 2025/DataStructuresNotes/Binary serach.md",
+    "Spring 2025/DataStructuresNotes/What to study for midterm 3.md",
+    "Spring 2025/DataStructuresNotes/Types of sorting.md",
+    "Spring 2025/DataStructuresNotes/Trees.md",
+    "Spring 2025/DataStructuresNotes/Stacks.md",
+    "Spring 2025/DataStructuresNotes/Priority queues.md",
+    "Spring 2025/AutomataAndLanguageTheoryNotes/Context free grammar.md",
+    "Spring 2025/ComputerNetworkNotes/Chapter 7.md",
+    "Spring 2025/ComputerNetworkNotes/Review for final exam.md",
     "images/q32-q33.png",
     "images/computerNetworkPracticeExam30.png",
-    "ComputerNetworkNotes/Chapter 8.md",
-    "ComputerNetworkNotes/Midterm 2 review.md",
-    "ComputerNetworkNotes/Chapter 4 notes.md",
-    "ComputerNetworkNotes/Chapter 4 notes cont..md",
-    "ComputerNetworkNotes/Chapter 6.md",
+    "Spring 2025/ComputerNetworkNotes/Chapter 8.md",
+    "Spring 2025/ComputerNetworkNotes/Midterm 2 review.md",
+    "Spring 2025/ComputerNetworkNotes/Chapter 4 notes.md",
+    "Spring 2025/ComputerNetworkNotes/Chapter 4 notes cont..md",
     "images/GREexample.png",
     "images/DFStopologyExample.png",
     "images/ClaudDistanceExample.png",
     "images/componentsExample.png",
     "images/AdjacentMatrixDiagram.png",
-    "images/EdgeList.png",
-    "images/GraphDiagram.png",
-    "ComputerLogicAndDesign/(FPGAs) Field programmable gate arrays.md",
-    "images/figure6.5.png",
-    "ComputerLogicAndDesign/Reduction of state tables.md",
-    "ComputerLogicAndDesign/Synchronous Sequential Logic Circuit.md",
-    "ComputerLogicAndDesign/Latches and Flip flops cont..md",
-    "ComputerLogicAndDesign/Latches and Flipflops.md",
-    "Other notes",
+    "Spring 2025/Other notes",
     "Templates",
-    "AutomataAndLanguageTheoryNotes",
-    "DataStructuresNotes",
-    "ComputerNetworkNotes",
-    "ComputerLogicAndDesign"
+    "Spring 2025/AutomataAndLanguageTheoryNotes",
+    "Spring 2025/DataStructuresNotes"
   ]
 }
