@@ -73,10 +73,9 @@ dynamic data in heap and static data in stack
 - Both threads are **racing to update** the same counter at the same time.
 - Because they **don’t wait for each other**, some updates are lost.
 - The computer switches between the threads **in the middle of an operation**, which breaks the counting.
-![](../../Pasted%20image%2020250825151118.png)
+![](../../images/Pasted%20image%2020250825151118.png)
 ![](../../images/Pasted%20image%2020250825151059.png)
 ### Persistance
-- Devices such as DRAM store data in a volitile manner (can change at anytime)
+- Devices such as DRAM store data in a volatile manner (can change at anytime)
 - Hardware and software need memory to stay persistent 
-- 
-- 
+
