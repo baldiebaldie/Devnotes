@@ -9,4 +9,6 @@ Why learn
 - Major language for business applications even today
 - This represents 80% of the total active code used today.
 - 90% of critical business applications use COBOL
-Components 
+Numbers in COBOL
+COBOL uses fixed point decimal arithmetic 
+You have full control of how numbers are calculated 
