@@ -3,7 +3,7 @@ Operating systems
 08-25-2025
 
 
-# What is an operating system?
+# What is an operating system
 - An OS acts as an intermediary between the computer and the application 
 - It is also software that converts hardware into applications
 ### What does OS provide?
