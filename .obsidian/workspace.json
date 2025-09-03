@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2025/ComputerLogicAndDesign/Latches and Flipflops.md",
+                "file": "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latches and Flipflops"
+              "title": "Chapter 5 - Process API"
             }
           },
           {
@@ -214,6 +214,8 @@
   },
   "active": "49152fe1432abe3d",
   "lastOpenFiles": [
+    "Fall 2025/OperatingSystems/Chapter 2 personal notes.md",
+    "Spring 2025/ComputerLogicAndDesign/Latches and Flipflops.md",
     "Spring 2025/ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "Spring 2025/ComputerLogicAndDesign/FPGAs - Field programmable gate arrays.md",
     "Fall 2025/ComputerArchitecture/Intro - Computer Architecture.md",
@@ -251,8 +253,6 @@
     "Spring 2025/DataStructuresNotes/Heaps.md",
     "Spring 2025/DataStructuresNotes/Maps and hashes.md",
     "Spring 2025/DataStructuresNotes/Binary serach.md",
-    "Spring 2025/DataStructuresNotes/What to study for midterm 3.md",
-    "Spring 2025/DataStructuresNotes/Types of sorting.md",
     "images/q32-q33.png",
     "images/computerNetworkPracticeExam30.png",
     "images/GREexample.png",
