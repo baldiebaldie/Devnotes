@@ -4,67 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "291e1f1ae53c8cd2",
+        "id": "27f9bd94ee127a6c",
         "type": "tabs",
         "children": [
           {
-            "id": "8e1d64d498378a3c",
+            "id": "fe21aeef7c52a193",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/OperatingSystems/What is an operating system?.md",
+                "file": "Fall 2025/ComputerArchitecture/Chapter 2 - Language of the computer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is an operating system?"
+              "title": "Chapter 2 - Language of the computer"
             }
           },
           {
-            "id": "bef223f0a86c8e9c",
+            "id": "9a870dfc3761f07b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/SystemSoftwareDevelopment/Software Engineering.md",
+                "file": "Fall 2025/Software engineering/SAFe 6.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Engineering"
-            }
-          },
-          {
-            "id": "49152fe1432abe3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2025/Software engineering/Agile.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Agile"
-            }
-          },
-          {
-            "id": "fa37aa1366c2eb66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2025/DataStructuresNotes/Final review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Final review"
+              "title": "SAFe 6.0"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,13 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49152fe1432abe3d",
+  "active": "9a870dfc3761f07b",
   "lastOpenFiles": [
-    "Fall 2025/ComputerArchitecture/Chapter 2.md",
-    "Fall 2025/ComputerArchitecture/Chapter 1 continued - Computer Architecture Notes – Computer Abstractions and Technology.md",
     "Fall 2025/ComputerArchitecture/Chapter 1 - Intro - Computer Architecture.md",
-    "Fall 2025/OperatingSystems/Chapter 6.md",
+    "Fall 2025/Software engineering/SAFe 6.0.md",
+    "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
+    "Fall 2025/ComputerArchitecture/Chapter 2 - Language of the computer.md",
+    "Fall 2025/OperatingSystems/Chapter 7- Scheduling introduction.md",
     "Fall 2025/OperatingSystems/Chapter 2 - independent notes.md",
+    "Fall 2025/OperatingSystems/Chapter 6 - Direct Execution.md",
+    "Fall 2025/SystemSoftwareDevelopment/The four pillars of OOP.md",
+    "Fall 2025/Software engineering/Agile.md",
+    "Fall 2025/ComputerArchitecture/Chapter 1 continued - Computer Architecture Notes – Computer Abstractions and Technology.md",
     "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
     "Fall 2025/OperatingSystems/Chapter 4-5 Personal notes.md",
     "Table of Contents.base",
@@ -226,7 +203,6 @@
     "images/Pasted image 20250908115056.png",
     "images/Pasted image 20250908115058.png",
     "Fall 2025/OperatingSystems/Chapter 4 - The abstraction process.md",
-    "Fall 2025/Software engineering/Agile.md",
     "Fall 2025/Software engineering/Software Engineering.md",
     "Fall 2025/Software engineering",
     "Spring 2025/AutomataAndLanguageTheoryNotes/Context free grammar.md",
@@ -247,10 +223,6 @@
     "Spring 2025/DataStructuresNotes/Final review.md",
     "images/Pasted image 20250825151118.png",
     "images/Pasted image 20250825151059.png",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Spring 2025/DataStructuresNotes/Graph representation.md",
-    "Spring 2025/DataStructuresNotes/AVL trees.md",
     "Fall 2025/SoftwareEngineering",
     "Fall 2025/SystemSoftwareDevelopment",
     "Fall 2025/ComputerArchitecture",
