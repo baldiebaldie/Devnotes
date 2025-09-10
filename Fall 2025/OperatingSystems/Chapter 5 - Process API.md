@@ -51,3 +51,4 @@ What is exec()?
 ### UNIX shell basics
 
 - When you press enter it passes your line of text to the shell which is then interpreted by the shell. With a command to execute one program the shell forks a child program to run the executable using exec(). Then it goes to sleep awaiting future commands. When the executable is done, it tells the kernel its done and exits. The kernel then wakes the shell back up.
+$$

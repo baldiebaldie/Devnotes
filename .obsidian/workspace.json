@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
+                "file": "Fall 2025/Software engineering/Agile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 5 - Process API"
+              "title": "Agile"
             }
           },
           {
@@ -214,16 +214,27 @@
   },
   "active": "49152fe1432abe3d",
   "lastOpenFiles": [
+    "Fall 2025/ComputerArchitecture/Chapter 2.md",
+    "Fall 2025/ComputerArchitecture/Chapter 1 continued - Computer Architecture Notes – Computer Abstractions and Technology.md",
+    "Fall 2025/ComputerArchitecture/Chapter 1 - Intro - Computer Architecture.md",
+    "Fall 2025/OperatingSystems/Chapter 6.md",
+    "Fall 2025/OperatingSystems/Chapter 2 - independent notes.md",
+    "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
+    "Fall 2025/OperatingSystems/Chapter 4-5 Personal notes.md",
+    "Table of Contents.base",
+    "Untitled 1.base",
+    "images/Pasted image 20250908115056.png",
+    "images/Pasted image 20250908115058.png",
+    "Fall 2025/OperatingSystems/Chapter 4 - The abstraction process.md",
+    "Fall 2025/Software engineering/Agile.md",
+    "Fall 2025/Software engineering/Software Engineering.md",
+    "Fall 2025/Software engineering",
+    "Spring 2025/AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "Fall 2025/OperatingSystems/Chapter 2 personal notes.md",
     "Spring 2025/ComputerLogicAndDesign/Latches and Flipflops.md",
     "Spring 2025/ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "Spring 2025/ComputerLogicAndDesign/FPGAs - Field programmable gate arrays.md",
-    "Fall 2025/ComputerArchitecture/Intro - Computer Architecture.md",
-    "Fall 2025/OperatingSystems/Chapter 2 - independent notes.md",
-    "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
     "Fall 2025/OperatingSystems/Chapter 2 - What is an operating system?.md",
-    "Fall 2025/OperatingSystems/Chapter 4 - The abstraction process.md",
-    "Fall 2025/SystemSoftwareDevelopment/Software Engineering.md",
     "images/Screenshot 2025-08-27 at 2.45.27 PM.png",
     "images/Screenshot 2025-08-27 at 2.42.57 PM.png",
     "images/Screenshot 2025-08-27 at 2.36.11 PM.png",
@@ -240,25 +251,14 @@
     "Untitled 1.md",
     "Spring 2025/DataStructuresNotes/Graph representation.md",
     "Spring 2025/DataStructuresNotes/AVL trees.md",
-    "Spring 2025/DataStructuresNotes/Binary Search Trees.md",
-    "Fall 2025/Untitled.md",
     "Fall 2025/SoftwareEngineering",
     "Fall 2025/SystemSoftwareDevelopment",
     "Fall 2025/ComputerArchitecture",
     "Fall 2025/OperatingSystems",
     "Fall 2025",
-    "Fall 2025.md",
     "Spring 2025",
     "images/Screenshot 2025-04-30 at 4.01.11 PM.png",
-    "Spring 2025/DataStructuresNotes/Heaps.md",
-    "Spring 2025/DataStructuresNotes/Maps and hashes.md",
-    "Spring 2025/DataStructuresNotes/Binary serach.md",
     "images/q32-q33.png",
-    "images/computerNetworkPracticeExam30.png",
-    "images/GREexample.png",
-    "Spring 2025/Other notes",
-    "Templates",
-    "Spring 2025/AutomataAndLanguageTheoryNotes",
-    "Spring 2025/DataStructuresNotes"
+    "Spring 2025/Other notes"
   ]
 }
