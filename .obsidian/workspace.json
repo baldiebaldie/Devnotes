@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe21aeef7c52a193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2025/ComputerArchitecture/Chapter 2 - Language of the computer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 2 - Language of the computer"
-            }
-          },
-          {
             "id": "9a870dfc3761f07b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/Software engineering/SAFe 6.0.md",
+                "file": "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAFe 6.0"
+              "title": "Chapter 2 continued - Language of the computer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 279.5,
+    "collapsed": true
   },
   "right": {
     "id": "32724063c6cfcf22",
@@ -186,14 +172,21 @@
   },
   "active": "9a870dfc3761f07b",
   "lastOpenFiles": [
-    "Fall 2025/ComputerArchitecture/Chapter 1 - Intro - Computer Architecture.md",
-    "Fall 2025/Software engineering/SAFe 6.0.md",
-    "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
+    "images/Pasted image 20250915155349.png",
+    "Fall 2025/OperatingSystems/Chapter 9 - Scheduling Proportional Share.md",
+    "images/Pasted image 20250915151333.png",
+    "images/Pasted image 20250915150404.png",
+    "Fall 2025/OperatingSystems/Chapter 8 - Scheduling The multi-Level Feedback Queue.md",
     "Fall 2025/ComputerArchitecture/Chapter 2 - Language of the computer.md",
+    "Fall 2025/OperatingSystems/Chapter 2 personal notes.md",
+    "Fall 2025/OperatingSystems/Untitled",
     "Fall 2025/OperatingSystems/Chapter 7- Scheduling introduction.md",
+    "Fall 2025/SystemSoftwareDevelopment/The four pillars of OOP.md",
+    "Fall 2025/Software engineering/SAFe 6.0.md",
+    "Fall 2025/ComputerArchitecture/Chapter 1 - Intro - Computer Architecture.md",
+    "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
     "Fall 2025/OperatingSystems/Chapter 2 - independent notes.md",
     "Fall 2025/OperatingSystems/Chapter 6 - Direct Execution.md",
-    "Fall 2025/SystemSoftwareDevelopment/The four pillars of OOP.md",
     "Fall 2025/Software engineering/Agile.md",
     "Fall 2025/ComputerArchitecture/Chapter 1 continued - Computer Architecture Notes – Computer Abstractions and Technology.md",
     "Fall 2025/OperatingSystems/Chapter 5 - Process API.md",
@@ -206,7 +199,6 @@
     "Fall 2025/Software engineering/Software Engineering.md",
     "Fall 2025/Software engineering",
     "Spring 2025/AutomataAndLanguageTheoryNotes/Context free grammar.md",
-    "Fall 2025/OperatingSystems/Chapter 2 personal notes.md",
     "Spring 2025/ComputerLogicAndDesign/Latches and Flipflops.md",
     "Spring 2025/ComputerLogicAndDesign/Latches and Flip flops cont..md",
     "Spring 2025/ComputerLogicAndDesign/FPGAs - Field programmable gate arrays.md",
@@ -218,9 +210,6 @@
     "Templates/Software System Development.md",
     "Untitled.md",
     "Templates/Software Engineering.md",
-    "Templates/Computer Architecture.md",
-    "Templates/Operating systems.md",
-    "Spring 2025/DataStructuresNotes/Final review.md",
     "images/Pasted image 20250825151118.png",
     "images/Pasted image 20250825151059.png",
     "Fall 2025/SoftwareEngineering",
@@ -228,9 +217,6 @@
     "Fall 2025/ComputerArchitecture",
     "Fall 2025/OperatingSystems",
     "Fall 2025",
-    "Spring 2025",
-    "images/Screenshot 2025-04-30 at 4.01.11 PM.png",
-    "images/q32-q33.png",
-    "Spring 2025/Other notes"
+    "Spring 2025"
   ]
 }
