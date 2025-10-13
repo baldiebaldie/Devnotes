@@ -165,6 +165,11 @@ char *dst = malloc(strlen("hello")); // Missing +1 for '\0'
 strcpy(dst, "hello"); // Writes beyond allocated space
 ```
 The string "hello" needs 6 bytes (h-e-l-l-o-\0), but you only allocated 5.
+The fix:
+```c 
+char *dst = malloc(strlen("hello") + 1); // +1 for '\0'
+strcpy(dst, "hello"); // Now it works
+```
 #### 3. **Forgetting to initialize**
 ```c
 int *x = malloc(sizeof(int));

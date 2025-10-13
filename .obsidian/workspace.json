@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/ComputerArchitecture/Chapter 3 - Computer arithmetic.md",
+                "file": "Fall 2025/OperatingSystems/Chapter 18 - Paging introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3 - Computer arithmetic"
+              "title": "Chapter 18 - Paging introduction"
+            }
+          },
+          {
+            "id": "b4bca220251106ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2025/Software engineering/Midterm 1 review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Midterm 1 review"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 279.5
   },
   "right": {
     "id": "32724063c6cfcf22",
@@ -170,10 +184,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87cf4c36129ccace",
+  "active": "b4bca220251106ab",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Fall 2025/OperatingSystems/Chapter 19 - Faster translation (TLB).md",
+    "Fall 2025/Software engineering/Midterm 1 review.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Fall 2025/OperatingSystems/Chapter 18 - Paging introduction.md",
+    "Fall 2025/OperatingSystems/Chapter 15 - Mechanism Address Translation.md",
     "Fall 2025/ComputerArchitecture/Chapter 3 - Computer arithmetic.md",
+    "Fall 2025/OperatingSystems/Chapter 16 - Segmentation.md",
+    "Untitled 3.base",
+    "Fall 2025/OperatingSystems/Chapter 13 - The Abstraction - Address space.md",
+    "Fall 2025/OperatingSystems/Chapter 14 - Interlude - Memory API.md",
+    "Untitled.md",
     "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
     "Fall 2025/OperatingSystems/Midterm 1 review.md",
     "api/0ee3d20e-e4b0-4e56-9491-a37f276e6538/files/10321fa4-80ec-4259-9833-ca8fa77d05a4/preview.md",
@@ -189,13 +214,8 @@
     "Fall 2025/OperatingSystems/Chapter 7- Scheduling introduction.md",
     "Fall 2025/OperatingSystems/Chapter 8 - Scheduling The multi-Level Feedback Queue.md",
     "Fall 2025/OperatingSystems/Chapter 9 - Scheduling Proportional Share.md",
-    "Fall 2025/OperatingSystems/Chapter 13.md",
-    "Fall 2025/OperatingSystems/Chapter 15 - Mechanism Address Translation.md",
-    "Fall 2025/OperatingSystems/Chapter 14 - Interlude - Memory API.md",
     "images/Pasted image 20250922160107.png",
     "images/Pasted image 20250922145859.png",
-    "Untitled.base",
-    "Untitled 1.base",
     "Fall 2025/OperatingSystems/Chapter 2 - independent notes.md",
     "images/Pasted image 20250915155349.png",
     "images/Pasted image 20250915151333.png",
@@ -206,17 +226,11 @@
     "Fall 2025/SystemSoftwareDevelopment/The four pillars of OOP.md",
     "Fall 2025/Software engineering/SAFe 6.0.md",
     "Fall 2025/ComputerArchitecture/Chapter 1 - Intro - Computer Architecture.md",
-    "Fall 2025/Software engineering/Agile.md",
-    "Fall 2025/ComputerArchitecture/Chapter 1 continued - Computer Architecture Notes – Computer Abstractions and Technology.md",
     "Table of Contents.base",
     "images/Pasted image 20250908115056.png",
     "images/Pasted image 20250908115058.png",
-    "Fall 2025/Software engineering/Software Engineering.md",
-    "Fall 2025/Software engineering",
-    "Spring 2025/AutomataAndLanguageTheoryNotes/Context free grammar.md",
     "images/Screenshot 2025-08-27 at 2.45.27 PM.png",
     "images/Screenshot 2025-08-27 at 2.42.57 PM.png",
-    "images/Screenshot 2025-08-27 at 2.36.11 PM.png",
-    "Fall 2025/SoftwareEngineering"
+    "images/Screenshot 2025-08-27 at 2.36.11 PM.png"
   ]
 }
