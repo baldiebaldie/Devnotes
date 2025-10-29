@@ -5,6 +5,7 @@ Computer Architecture
 1. ***Design principle 1*** : You ideally want to keep things simple and regular. This makes computers faster and cheaper.
 2. ***Design principle 2*** : smaller is faster. A smaller decoder is both cheaper and faster.
 3. _**Design Principle 3: Make the common case fast**_. Small constants appear often in programs, so supporting them directly saves time.
+4. *Design Principle 4:* **Good design demands good compromises**
 ---
 ### **Unsigned Binary Integers**
 - With **n bits**, the range is **0 to 2ⁿ – 1**.    

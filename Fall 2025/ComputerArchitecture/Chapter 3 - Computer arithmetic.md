@@ -12,9 +12,9 @@ The same pattern of bits can mean different things depending on how we interpret
 
 ### Different Number Representations
 Computers use several ways to represent numbers:
-- Signed bs Unsigned integers: Same bits, different meanings. Like how "FF" could mean 255 if unsigned or -1 if signed.
+- Signed bs Unsigned integers: Same bits, different meanings. Like how "0xFF" could mean 255 if unsigned or -1 if signed.
 - Fixed point: Uses some bits for the whole number part and some for the fractional part. Like always having exactly 2 decimal places for money
-- Floating point: Like scientific notation - separate the significant digits from the scale factor
+- Floating point: Like scientific notation - separate the significant digits from the scale factorS
 - ---
 ### Hardware Implementation
 **Ripple Carry Adder**:

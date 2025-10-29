@@ -12,7 +12,7 @@
 - Allow segments to grow as needed w/o worrying about running into each other.
 **Comparison to Segmentation**
 - Segmentation uses variable-sized logical segments (code, stack, heap)
-- Paging uses fixed-sized pages that can be scattered anywhere in physical emmory
+- Paging uses fixed-sized pages that can be scattered anywhere in physical memory
 
 ### Advantages of Paging
 **Flexibility**
