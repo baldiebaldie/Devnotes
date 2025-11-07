@@ -35,14 +35,14 @@ Example of an MCP:
 
 An easier way to write it is in blocks kind of like this:
 
-![](../../Pasted%20image%2020251020161856.png)
+![](../../images/Pasted%20image%2020251020161856.png)
 
 Best way is to go down by columns rather than full rows.
 How to count the amount of cycles for given assembly code?
 - Take 5 steps for the first instruction
 - Add 1 for each subsequent instruction 
 - Add 1 for each stall in the series
-![](../../Pasted%20image%2020251020165259.png)
+![](../../images/Pasted%20image%2020251020165259.png)
 
 
 #### Pipeline benefits/misconceptions 
