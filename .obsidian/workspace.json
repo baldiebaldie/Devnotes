@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2025/ComputerArchitecture/Chapter 5.1 Memory hierarchy.md",
+                "file": "Fall 2025/OperatingSystems/Chapter 36 - IO Devices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 5.1 Memory hierarchy"
+              "title": "Chapter 36 - IO Devices"
             }
           },
           {
@@ -252,8 +252,11 @@
   },
   "active": "87cf4c36129ccace",
   "lastOpenFiles": [
-    "Fall 2025/ComputerArchitecture/Chapter 4.8.md",
+    "Fall 2025/OperatingSystems/Chapter 32 - Common concurrency bugs.md",
+    "Fall 2025/OperatingSystems/Chapter 36 - IO Devices.md",
+    "Fall 2025/ComputerArchitecture/Midterm 3 practice.md",
     "Fall 2025/ComputerArchitecture/Chapter 5.1 Memory hierarchy.md",
+    "Fall 2025/ComputerArchitecture/Chapter 4.8.md",
     "Untitled 1.base",
     "Fall 2025/OperatingSystems/Midterm 2 Review.md",
     "Fall 2025/OperatingSystems/Chapter 31 - Semaphore.md",
@@ -283,9 +286,6 @@
     "Fall 2025/OperatingSystems/Chapter 20 - Paging smaller tables.md",
     "Fall 2025/OperatingSystems/Chapter 2 - What is an operating system.md",
     "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
-    "Fall 2025/ComputerArchitecture/Chapter 3 - Computer arithmetic.md",
-    "Fall 2025/ComputerArchitecture/Chapter 4.3 - Pipelining.md",
-    "Fall 2025/OperatingSystems/Midterm 1 review.md",
     "images/Pasted image 20251020131415.png",
     "images/Pasted image 20251020161856.png",
     "images/Pasted image 20251020161548.png",
