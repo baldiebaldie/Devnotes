@@ -67,7 +67,7 @@ Low level mechanisms
 Splitting
 - Finding a free chunk of memory and splitting it into two 
 - Then when there is a request for memory then throw it into one of those free chunks
-![](../../Pasted%20image%2020251103122129.png)
+![](../../images/Pasted%20image%2020251103122129.png)
 - Example here. We need 15 bits but there is no continuous chunk of 15 bits to store in memory. So we split into 2 and now can store a part in each chunk of free memory 
 
 Coalescing
@@ -112,7 +112,7 @@ Page size is the exact same as the frame size.
 - Very similar to segments. If we have a 64-byte address space then we can use 6 bits to represent the page (2^6 = 64). So just like in segments, the top 2 bits will represent the VPN or virtual page number (used to identify the specific page) and the bottom 4 bits will represent the offset
 - 16 byte pages. Note the offset is 16 (2^4) so we know there are 4 pages with size 16B. (16 * 4 = 64)
 Address translation
-- Hardware puts the VPN into the page table and converts it to the physical frame number. The offset that we found in the original page carries over.![](../../Pasted%20image%2020251103124727.png)
+- Hardware puts the VPN into the page table and converts it to the physical frame number. The offset that we found in the original page carries over.![](../../images/Pasted%20image%2020251103124727.png)
 
 How is the page table organized?
 - This a per process operation

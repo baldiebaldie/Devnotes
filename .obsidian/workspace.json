@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "9b63b7c83afed7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2025/OperatingSystems/Chapter 39 - File and Directories.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 39 - File and Directories"
+            }
+          },
+          {
             "id": "1dfc8e555224270c",
             "type": "leaf",
             "state": {
@@ -101,7 +115,8 @@
               "title": "Chapter 26 - Introduction to concurrency"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,26 +265,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87cf4c36129ccace",
+  "active": "9b63b7c83afed7c0",
   "lastOpenFiles": [
-    "Fall 2025/OperatingSystems/Chapter 32 - Common concurrency bugs.md",
+    "Fall 2025/OperatingSystems/Chapter 38 - RAID.md",
+    "Fall 2025/OperatingSystems/Chapter 39 - File and Directories.md",
+    "Pasted image 20251119142029.png",
+    "Pasted image 20251119141912.png",
+    "Pasted image 20251119141415.png",
+    "Pasted image 20251119141350.png",
+    "Pasted image 20251119141304.png",
+    "Pasted image 20251119141247.png",
+    "Templates/Operating systems.md",
+    "NOTES.md",
+    "Templates/Data Structures.md",
+    "images/Pasted image 20251103122129.png",
     "Fall 2025/OperatingSystems/Chapter 36 - IO Devices.md",
+    "images/Pasted image 20251117123345.png",
+    "images/Pasted image 20251117122634.png",
+    "images/Pasted image 20251117121347.png",
     "Fall 2025/ComputerArchitecture/Midterm 3 practice.md",
+    "Fall 2025/ComputerArchitecture/Chapter 2 - Language of the computer.md",
+    "Fall 2025/ComputerArchitecture/Untitled.md",
+    "Fall 2025/OperatingSystems/Chapter 32 - Common concurrency bugs.md",
     "Fall 2025/ComputerArchitecture/Chapter 5.1 Memory hierarchy.md",
     "Fall 2025/ComputerArchitecture/Chapter 4.8.md",
     "Untitled 1.base",
     "Fall 2025/OperatingSystems/Midterm 2 Review.md",
     "Fall 2025/OperatingSystems/Chapter 31 - Semaphore.md",
-    "Pasted image 20251103124727.png",
     "Fall 2025/OperatingSystems/Chapter 14 - Interlude - Memory API.md",
     "Fall 2025/OperatingSystems/Chapter 13 - The Abstraction - Address space.md",
-    "Pasted image 20251103122129.png",
     "Fall 2025/OperatingSystems/Chapter 30 - Conditional variables.md",
     "Fall 2025/SystemSoftwareDevelopment/The four pillars of OOP.md",
-    "NOTES.md",
     "Table of Contents.base",
-    "images/Pasted image 20251020161820.png",
-    "images/Pasted image 20251020165259.png",
     "Untitled.base",
     "untitled.md",
     "Untitled 1.md",
@@ -280,23 +307,11 @@
     "Fall 2025/OperatingSystems/Chapter 4-5 Personal notes.md",
     "Fall 2025/OperatingSystems/Chapter 29 - Lock-based Concurrent data structures.md",
     "Fall 2025/OperatingSystems/Untitled",
-    "Fall 2025/OperatingSystems/Chapter 28 - Locks.md",
-    "Fall 2025/OperatingSystems/Chapter 26 - Introduction to concurrency.md",
-    "Fall 2025/OperatingSystems/Chapter 27 - Threading API.md",
-    "Fall 2025/OperatingSystems/Chapter 20 - Paging smaller tables.md",
-    "Fall 2025/OperatingSystems/Chapter 2 - What is an operating system.md",
-    "Fall 2025/ComputerArchitecture/Chapter 2 continued - Language of the computer.md",
-    "images/Pasted image 20251020131415.png",
-    "images/Pasted image 20251020161856.png",
-    "images/Pasted image 20251020161548.png",
-    "images/Pasted image 20251020121141.png",
-    "images/Pasted image 20251013124924.png",
     "Untitled 2.base",
     "Untitled 3.base",
     "api/0ee3d20e-e4b0-4e56-9491-a37f276e6538/files/10321fa4-80ec-4259-9833-ca8fa77d05a4",
     "api/0ee3d20e-e4b0-4e56-9491-a37f276e6538/files",
     "api/0ee3d20e-e4b0-4e56-9491-a37f276e6538",
-    "api",
-    "images/Pasted image 20250922160107.png"
+    "api"
   ]
 }
