@@ -20,6 +20,8 @@ Emotional phase
 
 Valence - roughly how happy or sad you are
 This is a look at dimensional emotion
+
+(circumplex model)
 ![](../../../-images/Pasted%20image%2020260114171444.png)
 
 This is a more accurate 3 dimensional model of potential emotions
@@ -57,3 +59,72 @@ Dual-process Theory of emotion
 		- In the event you eat the chocolate you are emotionally happy however, you do not follow your diet 
 		- In the event you do not eat the chocolate you can emotionally sad, however you stick to your diet
 	- Analytically decisions are slower when emotionally decisions are much quicker
+### Emotion components and multimodal signals
+Physiological data:
+- Heart rate, respiration, EDA
+- Can be gathered through a watch for instance
+Cognitive data:
+- EEG data 
+- Very hard to get direct data from this. 
+- Can be gathered through wet caps with gel and proper data collection or dry caps which is less accurate yet more comfy 
+Expressive data:
+- Images
+Emotional data:
+- Self-report on feelings
+Motivational data:
+- Context
+#### Physiological-based model
+- Heart rate, respiration, EDA
+- Can be gathered through a watch for instance
+- James-Lange is commonly implemented (even unknowingly)
+	- High arousal = high emotion intensity 
+- Cannon Bard favors multimodal models
+	- Expressions can be masked
+	- physiological can be noisy
+	- feelings can be "faked"
+	- Thus you need potentially multiple avenues of data to put anything together. This promotes robustness
+### Machine learning 
+Classical vs Deep Learning
+- Hand crafted features - features you extract from a signal 
+- Deep features - Features extracted from a model
+Temporal modeling
+- LSTM, transformers, windows-based
+- Emotion as a process and depends on prior state (appraisal theory
+Multi-modal fusion
+- Early fusion - features are fused before modeling (component process model of emotion)
+	- If we made a vector of all physiological, cognitive, expressive, motivational, or emotional data we can throw them all together
+- Late fusion - decisions are  (Cannon-Bard)
+
+So what does this all mean?
+- **AFFECTIVE COMPUTING SYSTEMS CHOICES ARE NOT THEORY - NEUTRAL**
+
+Supervised learning
+- Fixed labels (giving images saying this person is happy, mad, etc)
+- Human annotations (labeling the image and saying if its happy, mad, etc)
+- Assumes ground truth labels are correct
+	- Aligns with basic emotion theory
+	- Contradicts constructivist theory
+Unsupervised learning
+- no fixed labels
+- learn without assistance of humans
+- Aligns with constructivist theory 
+
+MODEALS DONT JUST DETECT EMOTION, THEY COMMIT TO A THEORY OF WHAT EMOTION IS
+
+
+
+### Emotion elicitation and ground truth (how to maybe get the data)
+Emotion elicitation
+- Watch videos
+- interviews
+- games/different tasks
+Ground truth
+- self report 
+- Observer annotation (most common)
+- AI annotation (putting an image into ai and telling it that this is what it is)
+Ground truth challenges
+- Bias (maybe biased off culture or personal anecdotes)
+- Annotator agreement 
+- Constructivist theory
+	- not everyone feels the same emotions, there is no true label
+- Same stimulus, different emotions (appraisal theory)
