@@ -38,7 +38,7 @@ Theories of emotion
 	- Schachter Singer - proposes that an emotion arises from two key components: physiological arousal (like a racing heart or sweating) and a cognitive label (interpreting the situation and physical response)
 	![](../../../-images/Pasted%20image%2020260114172929.png)
 4. Appraisal theory (Lazarus)
-	![](../../../Pasted%20image%2020260114174141.png)
+	![](../../../-images/Pasted%20image%2020260114174141.png)
 	- Due to the potential problem present due to the environment you illicit an emotion and then make a decision. A decision to act upon the environment or to act 
 Facial Feedback theory of emotion (Darwin and James)
 - There is a direct link between actions and emotions

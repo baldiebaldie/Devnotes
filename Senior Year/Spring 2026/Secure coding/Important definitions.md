@@ -48,3 +48,4 @@ Formal definition
 	- A $policy$ P is a $property$ **⟺** $∃$ a set of good $traces$ G s.t $∀$ $programs$ p: $p ∈ P$ **⟺** $p ⊆ G$
 
 
+A policy P is a property if and only if there exists a group G, for all p: p is a subset of P if and only if p is a subset of G A policy $P$ is a property $\iff$ $\exists G \ \forall p: p\in P \iff p \subseteq G$

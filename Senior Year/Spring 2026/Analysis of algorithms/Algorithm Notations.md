@@ -8,7 +8,7 @@ Analysis of algorithms
 - Omega notation focuses on the lower bound (the best case scenario) for an algorithms performance
 
 ### Omega Notation (exact growth rate function)
-- Omega gives tighter lower bound. 
+- Omega gives lower bound. 
 - "This algorithm with take at least this much time"
 - f(n) = Ω(g(n))
 - i.e
